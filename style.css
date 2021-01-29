@@ -1,0 +1,19 @@
+.newSquare {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background: black;
+    cursor: pointer;
+}
+.squareContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.toolTip, .toolTipText {
+    visibility: hidden;
+}
+.toolTip:hover, .toolTipText {
+    visibility: visible;
+}
